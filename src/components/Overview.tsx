@@ -7,17 +7,20 @@ const Overview = () => {
     {
       icon: BookOpen,
       title: "Quizzes e flashcards",
-      description: "Estude com quizzes adaptativos e flashcards personalizados gerados com IA."
+      description: "Estude com quizzes adaptativos e flashcards personalizados gerados com IA.",
+      gradient: "from-clareia-violet to-clareia-light-violet"
     },
     {
       icon: MessageSquare,
       title: "Chatbot inteligente",
-      description: "Tire dúvidas a qualquer momento com um chatbot treinado no conteúdo específico do ENEM."
+      description: "Tire dúvidas a qualquer momento com um chatbot treinado no conteúdo específico do ENEM.",
+      gradient: "from-clareia-cyan to-clareia-violet"
     },
     {
       icon: FileText,
       title: "Gamificação",
-      description: "Ganhe pontos e conquistas enquanto estuda, tornando o aprendizado mais divertido e motivador."
+      description: "Ganhe pontos e conquistas enquanto estuda, tornando o aprendizado mais divertido e motivador.",
+      gradient: "from-clareia-light-violet to-clareia-cyan"
     }
   ];
 
@@ -42,7 +45,7 @@ const Overview = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-clareia-violet to-clareia-cyan rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className={`w-16 h-16 bg-gradient-to-br ${feature.gradient} rounded-full flex items-center justify-center mx-auto mb-6`}>
                   <feature.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-white">{feature.title}</h3>
