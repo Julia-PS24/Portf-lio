@@ -1,0 +1,45 @@
+
+import { Button } from "@/components/ui/button";
+
+const Header = () => {
+  return (
+    <header className="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="flex items-center space-x-3">
+          <img 
+            src="/lovable-uploads/41e7f6b6-6bda-4df3-81fd-5656033f0a31.png" 
+            alt="Clareia Logo" 
+            className="w-10 h-10"
+          />
+          <span className="text-2xl font-bold gradient-text">Clareia</span>
+        </div>
+        
+        <nav className="hidden md:flex items-center space-x-8">
+          <a href="#overview" className="text-slate-300 hover:text-white transition-colors">
+            Visão Geral
+          </a>
+          <a href="#problem" className="text-slate-300 hover:text-white transition-colors">
+            Problema
+          </a>
+          <a href="#solution" className="text-slate-300 hover:text-white transition-colors">
+            Solução
+          </a>
+          <a href="#features" className="text-slate-300 hover:text-white transition-colors">
+            Recursos
+          </a>
+        </nav>
+
+        <div className="flex items-center space-x-4">
+          <Button variant="outline" className="hidden sm:inline-flex border-clareia-violet text-clareia-violet hover:bg-clareia-violet hover:text-white">
+            Entrar
+          </Button>
+          <Button className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet">
+            Registrar
+          </Button>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
