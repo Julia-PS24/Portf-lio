@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Logo and brand */}
           <div className="mb-8 animate-fade-in">
             <img src="/lovable-uploads/41e7f6b6-6bda-4df3-81fd-5656033f0a31.png" alt="Clareia Logo" className="w-24 h-24 mx-auto mb-6 drop-shadow-2xl" />
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <h1 className="text-5xl font-bold mb-6 mx-0 px-[117px] my-[64px] py-[83px] md:text-6xl">
               Prepare-se para<br />
               o <span className="gradient-text">ENEM</span> com<br />
               <span className="text-clareia-violet">inteligência</span> e <span className="text-clareia-cyan">clareza</span>
