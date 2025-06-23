@@ -52,7 +52,7 @@ const Problem = () => {
               <img
                 src="/problema.png"
                 alt="Estudante desmotivado"
-                className="rounded-2xl shadow-2xl w-full h-60 sm:h-80 object-cover"
+                className="rounded-2xl shadow-2xl w-full h-60 sm:h-64 md:h-80 object-cover"
               />
             </div>
 
