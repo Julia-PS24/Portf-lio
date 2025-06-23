@@ -100,7 +100,7 @@ const Team = () => {
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed max-w-3xl mx-auto">
                   O <span className="text-clareia-cyan font-semibold">Clareia</span> é a prova de que
-                  quem vive o problema é também quem pode criar a solução.
+                  quem vive o problema é também quem pode criar a solução!
                 </p>
               </CardContent>
             </Card>
