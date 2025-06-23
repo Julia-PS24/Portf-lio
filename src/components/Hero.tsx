@@ -41,10 +41,10 @@ const Hero = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in" style={{
+          <div style={{
           animationDelay: '0.9s'
-        }}>
-            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-6 card-hover font-normal text-slate-50">Conheça o site!</Button>
+        }} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in my-[52px] px-[36px] py-[22px] mx-[12px]">
+            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet px-8 py-6 card-hover text-slate-50 text-3xl rounded-lg font-medium">Conheça o Clareia!</Button>
             
           </div>
 

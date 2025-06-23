@@ -71,7 +71,7 @@ const Solution = () => {
           </div>
 
           <div className="text-center mt-16 animate-fade-in">
-            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-4 card-hover">
+            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-4 card-hover text-slate-50">
               Experimente nossa solução
             </Button>
           </div>
