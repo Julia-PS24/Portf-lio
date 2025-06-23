@@ -12,19 +12,19 @@ const Features = () => {
     },
     {
       icon: "🏆",
-      title: "Gamificação Estratégica",
+      title: "Gamificação estratégica",
       description: "Estímulo contínuo à participação, com design de recompensas e desafios progressivos.",
       gradient: "from-clareia-cyan to-clareia-violet"
     },
     {
       icon: "📚",
-      title: "Metodologias Ativas",
+      title: "Metodologias ativas",
       description: "Incentivo à aprendizagem por meio de quizzes, flashcards e simulações interativas.",
       gradient: "from-clareia-light-violet to-clareia-cyan"
     },
     {
       icon: "💎",
-      title: "Interface Amigável",
+      title: "Interface amigável",
       description: "Design pensado para a usabilidade de adolescentes, com navegação simples e intuitiva.",
       gradient: "from-clareia-violet to-clareia-cyan"
     }
@@ -35,7 +35,7 @@ const Features = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Diferenciais <span className="gradient-text">Competitivos</span>
+            Diferenciais <span className="gradient-text">competitivos</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-8"></div>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
@@ -63,7 +63,7 @@ const Features = () => {
 
         <div className="bg-gradient-to-r from-clareia-deep-purple/30 to-clareia-dark-blue/30 rounded-3xl p-8 md:p-12 text-center animate-fade-in">
           <h3 className="text-3xl md:text-4xl font-bold mb-6 gradient-text">
-            Pronto para Revolucionar seus Estudos?
+            Pronto para revolucionar seus estudos?
           </h3>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
             Junte-se a milhares de estudantes que já estão usando o Clareia para 
@@ -75,14 +75,14 @@ const Features = () => {
               size="lg" 
               className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-4 card-hover"
             >
-              Começar Gratuitamente
+              Começar gratuitamente
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
               className="border-clareia-cyan text-clareia-cyan hover:bg-clareia-cyan hover:text-slate-900 text-lg px-8 py-4"
             >
-              Saber Mais
+              Saber mais
             </Button>
           </div>
         </div>

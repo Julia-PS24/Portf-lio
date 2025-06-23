@@ -25,7 +25,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-slate-800 text-center">
           <div className="flex flex-wrap justify-center gap-6 text-sm text-slate-400">
-            <a href="#overview" className="hover:text-clareia-cyan transition-colors">Visão Geral</a>
+            <a href="#overview" className="hover:text-clareia-cyan transition-colors">Visão geral</a>
             <a href="#problem" className="hover:text-clareia-cyan transition-colors">Problema</a>
             <a href="#solution" className="hover:text-clareia-cyan transition-colors">Solução</a>
             <a href="#features" className="hover:text-clareia-cyan transition-colors">Recursos</a>

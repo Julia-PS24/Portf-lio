@@ -6,12 +6,12 @@ const Overview = () => {
   const features = [
     {
       icon: BookOpen,
-      title: "Quizzes e Flashcards",
+      title: "Quizzes e flashcards",
       description: "Estude com quizzes adaptativos e flashcards personalizados gerados com IA."
     },
     {
       icon: MessageSquare,
-      title: "Chatbot Inteligente",
+      title: "Chatbot inteligente",
       description: "Tire dúvidas a qualquer momento com um chatbot treinado no conteúdo específico do ENEM."
     },
     {
@@ -29,7 +29,7 @@ const Overview = () => {
             Como o <span className="text-clareia-cyan">Clareia</span> ajuda você? 💡
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Uma plataforma digital inovadora voltada para o apoio ao aprendizado de estudantes do Ensino Médio. 
+            Uma plataforma digital inovadora voltada para o apoio ao aprendizado de estudantes do ensino médio. 
             Por meio da combinação de inteligência artificial, gamificação e recursos interativos.
           </p>
         </div>
@@ -54,7 +54,7 @@ const Overview = () => {
 
         <div className="bg-gradient-to-r from-clareia-violet/20 to-clareia-cyan/20 rounded-2xl p-8 md:p-12 animate-fade-in">
           <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-            Plataforma Educacional Gamificada com IA
+            Plataforma educacional gamificada com IA
           </h3>
           <p className="text-lg text-slate-300 text-center leading-relaxed">
             O projeto oferece uma experiência educacional personalizada, dinâmica e motivadora, 

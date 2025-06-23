@@ -16,7 +16,7 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#overview" className="text-slate-300 hover:text-white transition-colors">
-            Visão Geral
+            Visão geral
           </a>
           <a href="#problem" className="text-slate-300 hover:text-white transition-colors">
             Problema

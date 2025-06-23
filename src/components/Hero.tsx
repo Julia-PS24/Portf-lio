@@ -49,14 +49,14 @@ const Hero = () => {
               size="lg" 
               className="bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-6 card-hover"
             >
-              Começar Agora
+              Começar agora
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
               className="border-clareia-cyan text-clareia-cyan hover:bg-clareia-cyan hover:text-slate-900 text-lg px-8 py-6"
             >
-              Já Tenho Conta
+              Já tenho conta
             </Button>
           </div>
 

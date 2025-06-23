@@ -9,7 +9,7 @@ const Solution = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Nossa <span className="gradient-text">Solução</span> Inovadora
+              Nossa <span className="gradient-text">solução</span> inovadora
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-8"></div>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
@@ -25,7 +25,7 @@ const Solution = () => {
                     <div className="w-12 h-12 bg-gradient-to-r from-clareia-violet to-clareia-cyan rounded-lg flex items-center justify-center mr-4">
                       <span className="text-xl">🤖</span>
                     </div>
-                    <h3 className="text-2xl font-bold text-white">Assistente Inteligente</h3>
+                    <h3 className="text-2xl font-bold text-white">Assistente inteligente</h3>
                   </div>
                   <p className="text-slate-300 leading-relaxed mb-4">
                     Capaz de interagir com os alunos, responder dúvidas em tempo real e 
@@ -64,7 +64,7 @@ const Solution = () => {
                     <div className="w-12 h-12 bg-gradient-to-r from-clareia-cyan to-clareia-light-violet rounded-lg flex items-center justify-center mr-4">
                       <span className="text-xl">🎮</span>
                     </div>
-                    <h3 className="text-2xl font-bold text-white">Gamificação Estratégica</h3>
+                    <h3 className="text-2xl font-bold text-white">Gamificação estratégica</h3>
                   </div>
                   <p className="text-slate-300 leading-relaxed mb-4">
                     Elementos de gamificação para estimular o engajamento dos usuários, 
@@ -84,9 +84,9 @@ const Solution = () => {
           <div className="text-center mt-16 animate-fade-in">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clar eia-violet text-lg px-8 py-4 card-hover"
+              className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-4 card-hover"
             >
-              Experimente Nossa Solução
+              Experimente nossa solução
             </Button>
           </div>
         </div>
