@@ -25,15 +25,17 @@ const Features = () => {
   }];
   return (
     <>
-      <section id="features" className="pt-16 pb-8">
-        <div className="container mx-auto">
-          <div className="rounded-3xl p-8 md:p-12 text-center animate-fade-in">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+      <section id="features" className="pt-10 pb-6 md:pt-16 md:pb-8">
+        <div className="container mx-auto px-2 sm:px-4">
+          <div className="rounded-2xl md:rounded-3xl p-4 md:p-12 text-center animate-fade-in">
+            <h3 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6 text-white">
               Pronto para revolucionar seus estudos?
             </h3>
-            <p className="text-xl text-white mb-8 max-w-2xl mx-auto">Junte-se ao Clareia para alcançar seus objetivos acadêmicos e entenda como a IA e a gamificação podem redefinir sua experiência de aprendizagem.</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-4 card-hover text-slate-50">Começar agora!</Button>
+            <p className="text-base md:text-xl text-white mb-6 md:mb-8 max-w-xs sm:max-w-2xl mx-auto">Junte-se ao Clareia para alcançar seus objetivos acadêmicos e entenda como a IA e a gamificação podem redefinir sua experiência de aprendizagem.</p>
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center">
+              <Button asChild size="lg" className="w-full sm:w-auto bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-base md:text-lg px-6 md:px-8 py-3 md:py-4 card-hover text-slate-50">
+                <a href="https://clareia.xyz" target="_blank" rel="noopener noreferrer">Começar agora!</a>
+              </Button>
             </div>
           </div>
         </div>
