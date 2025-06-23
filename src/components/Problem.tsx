@@ -8,7 +8,7 @@ const Problem = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Problema que Buscamos <span className="gradient-text">Resolver</span>
+              <span className="gradient-text">Problemas</span> que Buscamos <span className="gradient-text">Resolver</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-8"></div>
           </div>
