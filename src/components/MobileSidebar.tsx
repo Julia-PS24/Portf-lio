@@ -120,7 +120,7 @@ const MobileSidebar = ({ isOpen, onClose }: MobileSidebarProps) => {
             className="block w-full bg-gradient-to-r from-clareia-violet to-clareia-cyan text-white font-bold text-center py-4 px-6 rounded-xl shadow-lg hover:from-clareia-light-violet hover:to-clareia-violet transition-all duration-300 card-hover"
             onClick={onClose}
           >
-            Começar agora!
+            Acesse o site!
           </a>
         </div>
       </div>
