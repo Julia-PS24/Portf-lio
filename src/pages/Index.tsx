@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowDown, BookOpen, MessageSquare, FileText } from "lucide-react";
@@ -7,6 +6,7 @@ import Hero from "@/components/Hero";
 import Overview from "@/components/Overview";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
+import Team from "@/components/Team";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 
@@ -18,6 +18,7 @@ const Index = () => {
       <Overview />
       <Problem />
       <Solution />
+      <Team />
       <Features />
       <Footer />
     </div>
