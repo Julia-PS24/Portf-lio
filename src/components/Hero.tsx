@@ -20,8 +20,8 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Logo and brand */}
           <div className="mb-8 animate-fade-in">
-            <img src="/lovable-uploads/41e7f6b6-6bda-4df3-81fd-5656033f0a31.png" alt="Clareia Logo" className="w-24 h-24 mx-auto mb-6 drop-shadow-2xl" />
-            <h1 className="text-5xl font-bold mb-6 mx-0 px-[117px] my-[64px] py-[83px] md:text-6xl">
+            
+            <h1 className="text-5xl font-bold mb-6 mx-0 px-[137px] my-0 py-[82px] md:text-6xl">
               Prepare-se para<br />
               o <span className="gradient-text">ENEM</span> com<br />
               <span className="text-clareia-violet">inteligência</span> e <span className="text-clareia-cyan">clareza</span>
@@ -29,16 +29,12 @@ const Hero = () => {
           </div>
 
           {/* Slogan */}
-          <p className="text-xl md:text-2xl text-slate-300 mb-8 animate-fade-in" style={{
-          animationDelay: '0.3s'
-        }}>
-            IA e gamificação redefinindo a experiência de aprendizagem.
-          </p>
+          
 
           {/* Description */}
-          <p className="text-lg text-slate-400 mb-12 max-w-3xl mx-auto animate-fade-in" style={{
+          <p style={{
           animationDelay: '0.6s'
-        }}>
+        }} className="text-slate-400 mb-12 max-w-3xl mx-auto animate-fade-in text-3xl my-[35px]">
             O <span className="text-clareia-cyan font-semibold">Clareia</span> é uma plataforma de estudo gamificada que 
             usa inteligência artificial para ajudar você a conquistar 
             a sua vaga na universidade.
@@ -48,12 +44,8 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in" style={{
           animationDelay: '0.9s'
         }}>
-            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-6 card-hover font-normal text-slate-50">
-              Começar agora
-            </Button>
-            <Button variant="outline" size="lg" className="border-clareia-cyan text-clareia-cyan hover:bg-clareia-cyan hover:text-slate-900 text-lg px-8 py-6">
-              Já tenho conta
-            </Button>
+            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-6 card-hover font-normal text-slate-50">Conheça o site!</Button>
+            
           </div>
 
           {/* Scroll indicator */}

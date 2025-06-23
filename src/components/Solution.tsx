@@ -1,10 +1,7 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-
 const Solution = () => {
-  return (
-    <section id="solution" className="section-padding bg-slate-800/30">
+  return <section id="solution" className="section-padding bg-slate-800/30">
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
@@ -20,7 +17,7 @@ const Solution = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="animate-fade-in">
               <Card className="bg-gradient-to-br from-clareia-violet/20 to-clareia-cyan/20 border-clareia-violet/30 card-hover">
-                <CardContent className="p-8">
+                <CardContent className="p-8 bg-indigo-950">
                   <div className="flex items-center mb-6">
                     <div className="w-12 h-12 bg-gradient-to-r from-clareia-violet to-clareia-cyan rounded-lg flex items-center justify-center mr-4">
                       <span className="text-xl">🤖</span>
@@ -40,26 +37,18 @@ const Solution = () => {
             </div>
 
             <div className="animate-slide-in-right">
-              <img 
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop"
-                alt="Tecnologia e Programação"
-                className="rounded-2xl shadow-2xl w-full h-80 object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop" alt="Tecnologia e Programação" className="rounded-2xl shadow-2xl w-full h-80 object-cover" />
             </div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 animate-slide-in-right">
-              <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop"
-                alt="Gamificação e Tecnologia"
-                className="rounded-2xl shadow-2xl w-full h-80 object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop" alt="Gamificação e Tecnologia" className="rounded-2xl shadow-2xl w-full h-80 object-cover" />
             </div>
 
             <div className="order-1 lg:order-2 animate-fade-in">
               <Card className="bg-gradient-to-br from-clareia-cyan/20 to-clareia-light-violet/20 border-clareia-cyan/30 card-hover">
-                <CardContent className="p-8">
+                <CardContent className="p-8 bg-indigo-950">
                   <div className="flex items-center mb-6">
                     <div className="w-12 h-12 bg-gradient-to-r from-clareia-cyan to-clareia-light-violet rounded-lg flex items-center justify-center mr-4">
                       <span className="text-xl">🎮</span>
@@ -82,17 +71,12 @@ const Solution = () => {
           </div>
 
           <div className="text-center mt-16 animate-fade-in">
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-4 card-hover"
-            >
+            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-lg px-8 py-4 card-hover">
               Experimente nossa solução
             </Button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Solution;
