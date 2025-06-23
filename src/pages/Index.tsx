@@ -17,10 +17,12 @@ const Index = () => {
       <Hero />
       <Overview />
       <Problem />
-      <Solution />
       <Team />
-      <Features />
-      <Footer />
+      <Solution />
+      <div className="bg-hero-gradient">
+        <Features />
+        <Footer />
+      </div>
     </div>
   );
 };

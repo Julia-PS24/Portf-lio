@@ -1,9 +1,8 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const Problem = () => {
   return (
-    <section id="problem" className="section-padding bg-gradient-to-br from-slate-800/20 to-slate-900/40">
+    <section id="problem" className="section-padding bg-slate-800">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
@@ -14,7 +13,7 @@ const Problem = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-gradient-to-br from-clareia-violet/10 to-clareia-light-violet/10 border-clareia-violet/20 card-hover animate-slide-in-right">
+            <Card className="bg-slate-900 border-clareia-cyan/40 card-hover animate-slide-in-right">
               <CardContent className="p-8">
                 <div className="text-center mb-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-clareia-violet to-clareia-light-violet rounded-full flex items-center justify-center mx-auto mb-4">
@@ -29,7 +28,7 @@ const Problem = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-clareia-cyan/10 to-clareia-violet/10 border-clareia-cyan/20 card-hover animate-slide-in-right" style={{
+            <Card className="bg-slate-900 border-clareia-cyan/40 card-hover animate-slide-in-right" style={{
               animationDelay: '0.3s'
             }}>
               <CardContent className="p-8">
@@ -50,14 +49,14 @@ const Problem = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
               <img 
-                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop" 
+                src="/problema.png" 
                 alt="Estudante desmotivado" 
                 className="rounded-2xl shadow-2xl w-full h-80 object-cover"
               />
             </div>
 
             <div className="animate-slide-in-right" style={{ animationDelay: '0.9s' }}>
-              <Card className="bg-gradient-to-r from-clareia-light-violet/10 to-clareia-cyan/10 border-clareia-light-violet/20">
+              <Card className="bg-slate-900 border-clareia-cyan/40">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-bold mb-4 gradient-text">O impacto real</h3>
                   <p className="text-lg text-slate-300 leading-relaxed">

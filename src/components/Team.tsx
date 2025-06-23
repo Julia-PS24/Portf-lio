@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Heart, BookOpen, Target } from "lucide-react";
 
@@ -38,14 +37,14 @@ const Team = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="animate-fade-in">
               <img 
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop" 
+                src="/grupo.webp" 
                 alt="Estudantes colaborando" 
                 className="rounded-2xl shadow-2xl w-full h-80 object-cover"
               />
             </div>
 
             <div className="animate-slide-in-right">
-              <Card className="bg-gradient-to-br from-clareia-violet/10 to-clareia-cyan/10 border-clareia-violet/20 card-hover">
+              <Card className="bg-slate-800 border-slate-700 card-hover">
                 <CardContent className="p-8">
                   <div className="flex items-center mb-6">
                     <div className="w-12 h-12 bg-gradient-to-r from-clareia-violet to-clareia-cyan rounded-lg flex items-center justify-center mr-4">
@@ -78,7 +77,7 @@ const Team = () => {
               {experiences.map((experience, index) => (
                 <Card 
                   key={index} 
-                  className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 border-slate-700/50 card-hover animate-fade-in"
+                  className="bg-slate-800 border-slate-700 card-hover animate-fade-in"
                   style={{ animationDelay: `${index * 0.2}s` }}
                 >
                   <CardContent className="p-6 text-center h-full flex flex-col">
@@ -94,7 +93,7 @@ const Team = () => {
           </div>
 
           <div className="text-center animate-fade-in">
-            <Card className="bg-gradient-to-r from-clareia-deep-purple/30 to-clareia-dark-blue/30 border-clareia-violet/20">
+            <Card className="bg-slate-800 border-slate-700 card-hover">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4 gradient-text">
                   Uma ponte entre tecnologia e vivência estudantil

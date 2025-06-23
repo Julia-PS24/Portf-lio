@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { BookOpen, MessageSquare, FileText } from "lucide-react";
 
@@ -25,7 +24,7 @@ const Overview = () => {
   ];
 
   return (
-    <section id="overview" className="section-padding bg-gradient-to-br from-slate-800/50 to-slate-900/30">
+    <section id="overview" className="section-padding bg-slate-900">
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -37,7 +36,7 @@ const Overview = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 border-slate-700/50 card-hover animate-fade-in" 
+              className="bg-slate-800 border-slate-700 card-hover animate-fade-in" 
               style={{
                 animationDelay: `${index * 0.2}s`
               }}

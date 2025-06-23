@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 const Hero = () => {
-  return <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+  return <section className="relative overflow-hidden pt-24">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-hero-gradient opacity-90"></div>
       
@@ -16,12 +16,12 @@ const Hero = () => {
       }}></div>
       </div>
 
-      <div className="container mx-auto px-4 text-center relative z-10">
-        <div className="max-w-4xl mx-auto">
+      <div className="container mx-auto px-4 text-center relative z-10 flex flex-col justify-center min-h-[calc(100vh-6rem)]">
+        <div className="max-w-4xl mx-auto flex flex-col justify-center flex-1">
           {/* Logo and brand */}
           <div className="mb-8 animate-fade-in">
             
-            <h1 className="text-5xl font-bold mb-6 mx-0 px-[137px] my-0 py-[82px] md:text-6xl">
+            <h1 className="text-5xl font-bold mb-6 md:text-6xl px-4 py-0 my-0">
               Prepare-se para<br />
               o <span className="gradient-text">ENEM</span> com<br />
               <span className="text-clareia-violet">inteligência</span> e <span className="text-clareia-cyan">clareza</span>
@@ -44,7 +44,9 @@ const Hero = () => {
           <div style={{
           animationDelay: '0.9s'
         }} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in my-[52px] px-[36px] py-[22px] mx-[12px]">
-            <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet px-8 py-6 card-hover text-slate-50 text-3xl rounded-lg font-medium">Conheça o Clareia!</Button>
+            <a href="https://clareia.xyz" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet px-8 py-6 card-hover text-slate-50 text-3xl rounded-lg font-medium">Conheça o Clareia!</Button>
+            </a>
             
           </div>
 
