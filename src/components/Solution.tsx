@@ -16,7 +16,7 @@ const Solution = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-12 sm:mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center mb-12 sm:mb-16">
             <div className="animate-fade-in">
               <Card className="bg-slate-800 border-slate-700 card-hover">
                 <CardContent className="p-6 sm:p-8">
@@ -43,7 +43,7 @@ const Solution = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-12 sm:mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center mb-12 sm:mb-16">
             <div className="order-2 lg:order-1 animate-slide-in-right">
               <img src="/gamificacao.png" alt="Gamificação e Tecnologia" className="rounded-2xl shadow-2xl w-full h-60 sm:h-64 md:h-80 object-cover" />
             </div>

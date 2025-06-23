@@ -12,7 +12,7 @@ const Problem = () => {
             <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-6 sm:mb-8"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 mb-8 sm:mb-12">
             <Card className="bg-slate-900 border-clareia-cyan/40 card-hover animate-slide-in-right">
               <CardContent className="p-6 sm:p-8">
                 <div className="text-center mb-4 sm:mb-6">
@@ -47,20 +47,12 @@ const Problem = () => {
             </Card>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+          <div className="max-w-4xl mx-auto">
             <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              <img
-                src="/problema.png"
-                alt="Estudante desmotivado"
-                className="rounded-2xl shadow-2xl w-full h-60 sm:h-64 md:h-80 object-cover"
-              />
-            </div>
-
-            <div className="animate-slide-in-right" style={{ animationDelay: '0.9s' }}>
               <Card className="bg-slate-900 border-clareia-cyan/40">
-                <CardContent className="p-6 sm:p-8">
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4 gradient-text">O impacto real</h3>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed">
+                <CardContent className="p-6 sm:p-8 text-center">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 gradient-text">O impacto real</h3>
+                  <p className="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed max-w-3xl mx-auto">
                     Esses desafios impactam diretamente o desempenho escolar dos alunos,
                     criando uma lacuna entre o potencial individual e os resultados obtidos.
                     É aqui que o <span className="text-clareia-cyan font-semibold">Clareia</span> entra

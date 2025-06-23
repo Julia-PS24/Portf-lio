@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -42,21 +41,21 @@ const Features = () => {
             <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-4 sm:mb-6"></div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12">
             {features.map((feature, index) => (
               <Card
                 key={index}
                 className="bg-slate-800/80 border-slate-700 card-hover animate-fade-in backdrop-blur-sm"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
-                <CardContent className="p-4 sm:p-6 text-center">
-                  <div className={`w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br ${feature.gradient} rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4`}>
+                <CardContent className="p-6 sm:p-8 text-center">
+                  <div className={`w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br ${feature.gradient} rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6`}>
                     <span className="text-xl sm:text-2xl">{feature.icon}</span>
                   </div>
-                  <h3 className="text-base sm:text-lg font-bold mb-2 sm:mb-3 text-white leading-tight">
+                  <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 text-white leading-tight">
                     {feature.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                  <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
                     {feature.description}
                   </p>
                 </CardContent>
