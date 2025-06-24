@@ -4,27 +4,27 @@ import { Button } from "@/components/ui/button";
 const Features = () => {
   const features = [
     {
-      icon: "🎯",
-      title: "Personalização com IA",
-      description: "Respostas customizadas, baseadas no desempenho e nas dúvidas individuais de cada aluno.",
+      icon: "🚀",
+      title: "Resultados comprovados",
+      description: "Melhore sua performance no ENEM com uma metodologia que se adapta ao seu ritmo de aprendizagem.",
       gradient: "from-clareia-violet to-clareia-light-violet"
     },
     {
-      icon: "🏆",
-      title: "Gamificação estratégica",
-      description: "Estímulo contínuo à participação, com design de recompensas e desafios progressivos.",
+      icon: "⏰",
+      title: "Economia de tempo",
+      description: "Estude de forma mais eficiente com conteúdo direcionado às suas necessidades específicas.",
       gradient: "from-clareia-cyan to-clareia-violet"
     },
     {
-      icon: "📚",
-      title: "Metodologias ativas",
-      description: "Incentivo à aprendizagem por meio de quizzes, flashcards e simulações interativas.",
+      icon: "🎯",
+      title: "Foco no que importa",
+      description: "Identifique suas lacunas de conhecimento e concentre-se nos tópicos que mais impactam sua nota.",
       gradient: "from-clareia-light-violet to-clareia-cyan"
     },
     {
-      icon: "💎",
-      title: "Interface amigável",
-      description: "Design pensado para a usabilidade de adolescentes, com navegação simples e intuitiva.",
+      icon: "💪",
+      title: "Motivação constante",
+      description: "Mantenha-se engajado com um sistema que celebra seu progresso e torna o estudo prazeroso.",
       gradient: "from-clareia-violet to-clareia-cyan"
     }
   ];
@@ -70,7 +70,7 @@ const Features = () => {
             Pronto para revolucionar seus estudos?
           </h3>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white mb-6 sm:mb-8 max-w-xs sm:max-w-lg md:max-w-2xl mx-auto leading-relaxed">
-            Junte-se ao Clareia para alcançar seus objetivos acadêmicos e entenda como a IA e a gamificação podem redefinir sua experiência de aprendizagem.
+            Junte-se ao Clareia para alcançar seus objetivos acadêmicos e entenda como ele pode redefinir sua experiência de aprendizagem.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center">
             <Button

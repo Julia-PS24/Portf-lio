@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu } from "lucide-react";
-import MobileSidebar from "./MobileSidebar";
+import MobileSidebar from "./MobileSidebar.tsx";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -34,14 +34,14 @@ const Header = () => {
             <a href="#problem" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
               Desafios
             </a>
-            <a href="#solution" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
-              Nossa solução
-            </a>
             <a href="#team" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
               Quem somos
             </a>
+            <a href="#solution" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
+              Tecnologia
+            </a>
             <a href="#features" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
-              Saiba mais
+              Por que escolher
             </a>
           </nav>
 

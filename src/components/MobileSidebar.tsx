@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -11,9 +11,9 @@ const MobileSidebar = ({ isOpen, onClose }: MobileSidebarProps) => {
   const navigationLinks = [
     { href: "#overview", label: "Como funciona" },
     { href: "#problem", label: "Desafios" },
-    { href: "#solution", label: "Nossa solução" },
     { href: "#team", label: "Quem somos" },
-    { href: "#features", label: "Saiba mais" }
+    { href: "#solution", label: "Tecnologia" },
+    { href: "#features", label: "Por que escolher" }
   ];
 
   // Fechar sidebar com tecla Escape
