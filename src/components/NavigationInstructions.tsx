@@ -5,8 +5,27 @@ import { X, ArrowUp, ArrowDown, Home, Mouse } from 'lucide-react';
 
 const NavigationInstructions = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // Check if device is mobile
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    // Initial check
+    checkMobile();
+
+    // Listen for resize events
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  useEffect(() => {
+    // Don't show instructions on mobile devices
+    if (isMobile) return;
+
     // Check if user has seen instructions before
     const hasSeenInstructions = localStorage.getItem('clareia-portfolio-instructions-seen');
 
@@ -27,9 +46,10 @@ const NavigationInstructions = () => {
         clearTimeout(autoHideTimer);
       };
     }
-  }, []);
+  }, [isMobile]);
 
-  if (!isVisible) return null;
+  // Don't render on mobile or if not visible
+  if (!isVisible || isMobile) return null;
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">

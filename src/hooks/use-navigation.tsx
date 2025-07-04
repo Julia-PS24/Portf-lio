@@ -10,6 +10,22 @@ export function useNavigation(sections: Section[]) {
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
   const [isNavigating, setIsNavigating] = useState(false);
   const [showCompletion, setShowCompletion] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if device is mobile
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    // Initial check
+    checkMobile();
+
+    // Listen for resize events
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const navigateToSection = useCallback((index: number) => {
     if (index >= 0 && index < sections.length && !isNavigating) {
@@ -91,9 +107,9 @@ export function useNavigation(sections: Section[]) {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [nextSection, previousSection, navigateToSection, sections.length, isNavigating, showCompletion]);
 
-  // Intersection Observer for more accurate section detection
+  // Intersection Observer for more accurate section detection (disabled on mobile)
   useEffect(() => {
-    if (isNavigating) return;
+    if (isNavigating || isMobile) return;
 
     const observerOptions = {
       root: null,
@@ -163,10 +179,13 @@ export function useNavigation(sections: Section[]) {
       observer.disconnect();
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [sections, isNavigating]);
+  }, [sections, isNavigating, isMobile]);
 
-  // Touch/swipe navigation for mobile
+  // Touch/swipe navigation for mobile (disabled to allow natural scrolling)
   useEffect(() => {
+    // Disable swipe navigation on mobile to allow natural scrolling
+    if (isMobile) return;
+
     let touchStartY = 0;
     let touchEndY = 0;
 
@@ -203,7 +222,7 @@ export function useNavigation(sections: Section[]) {
       document.removeEventListener('touchstart', handleTouchStart);
       document.removeEventListener('touchend', handleTouchEnd);
     };
-  }, [nextSection, previousSection, isNavigating]);
+  }, [nextSection, previousSection, isNavigating, isMobile]);
 
   const restartNavigation = useCallback(() => {
     setShowCompletion(false);
