@@ -102,6 +102,11 @@ const Footer = () => {
               </h3>
               <div className="space-y-2 sm:space-y-3">
                 <p className="text-sm sm:text-base text-slate-200">
+                  <a href="mailto:clareiaenem@gmail.com" className="hover:text-clareia-cyan transition-colors">
+                    clareiaenem@gmail.com
+                  </a>
+                </p>
+                <p className="text-sm sm:text-base text-slate-200">
                   <a href="mailto:souzajulia@discente.ufg.br" className="hover:text-clareia-cyan transition-colors">
                     souzajulia@discente.ufg.br
                   </a>
@@ -114,11 +119,6 @@ const Footer = () => {
                 <p className="text-sm sm:text-base text-slate-200">
                   <a href="mailto:vieira_jamily@discente.ufg.br" className="hover:text-clareia-cyan transition-colors">
                     vieira_jamily@discente.ufg.br
-                  </a>
-                </p>
-                <p className="text-sm sm:text-base text-slate-200">
-                  <a href="mailto:clareiaenem@gmail.com" className="hover:text-clareia-cyan transition-colors">
-                    clareiaenem@gmail.com
                   </a>
                 </p>
               </div>
