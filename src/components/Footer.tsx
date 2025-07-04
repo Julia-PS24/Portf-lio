@@ -116,6 +116,11 @@ const Footer = () => {
                     vieira_jamily@discente.ufg.br
                   </a>
                 </p>
+                <p className="text-sm sm:text-base text-slate-200">
+                  <a href="mailto:clareiaenem@gmail.com" className="hover:text-clareia-cyan transition-colors">
+                    clareiaenem@gmail.com
+                  </a>
+                </p>
               </div>
             </div>
           </div>
