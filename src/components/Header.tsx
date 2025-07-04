@@ -19,29 +19,29 @@ const Header = () => {
         <div className="container mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2 sm:space-x-3">
             <img
-              src="/lovable-uploads/41e7f6b6-6bda-4df3-81fd-5656033f0a31.png"
+              src="/lovable-uploads/logo.ico"
               alt="Clareia Logo"
-              className="w-8 h-8 sm:w-10 sm:h-10 object-cover"
+              className="w-8 h-8 sm:w-10 sm:h-10 object-contain filter drop-shadow-sm hover:scale-105 transition-transform duration-200"
             />
             <span className="text-lg sm:text-xl md:text-2xl font-bold gradient-text">Clareia</span>
           </div>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation - 5 links principais */}
           <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            <a href="#overview" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
-              Como funciona
-            </a>
-            <a href="#problem" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
-              Desafios
+            <a href="#hero" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
+              Início
             </a>
             <a href="#team" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
-              Quem somos
+              Por que o criamos?
             </a>
             <a href="#solution" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
-              Tecnologia
+              Como Funciona?
             </a>
-            <a href="#features" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
-              Por que escolher
+            <a href="#overview" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
+              Por que escolhê-lo?
+            </a>
+            <a href="#footer" className="text-slate-300 hover:text-clareia-cyan transition-colors text-sm lg:text-base">
+              Contate-nos
             </a>
           </nav>
 

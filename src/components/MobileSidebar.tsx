@@ -9,11 +9,11 @@ interface MobileSidebarProps {
 
 const MobileSidebar = ({ isOpen, onClose }: MobileSidebarProps) => {
   const navigationLinks = [
-    { href: "#overview", label: "Como funciona" },
-    { href: "#problem", label: "Desafios" },
-    { href: "#team", label: "Quem somos" },
-    { href: "#solution", label: "Tecnologia" },
-    { href: "#features", label: "Por que escolher" }
+    { href: "#hero", label: "Início" },
+    { href: "#team", label: "Por que o criamos?" },
+    { href: "#solution", label: "Como Funciona?" },
+    { href: "#overview", label: "Por que escolhê-lo?" },
+    { href: "#footer", label: "Contate-nos" }
   ];
 
   // Fechar sidebar com tecla Escape
@@ -77,10 +77,10 @@ const MobileSidebar = ({ isOpen, onClose }: MobileSidebarProps) => {
         {/* Header da Sidebar */}
         <div className="flex items-center justify-between p-6 border-b border-slate-700">
           <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/41e7f6b6-6bda-4df3-81fd-5656033f0a31.png" 
-              alt="Clareia Logo" 
-              className="w-8 h-8 object-cover" 
+            <img
+              src="/lovable-uploads/logo.ico"
+              alt="Clareia Logo"
+              className="w-8 h-8 object-cover"
             />
             <span className="text-xl font-bold gradient-text">Clareia</span>
           </div>

@@ -7,11 +7,11 @@ const Solution = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 sm:mb-16 animate-fade-in">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-              Como nossa <span className="gradient-text">tecnologia</span> funciona
+              Nossa <span className="gradient-text">solução tecnológica</span>
             </h2>
             <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-6 sm:mb-8"></div>
             <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed px-2">
-              O que torna o Clareia uma ferramenta educacional de alta performance
+              Dois pilares tecnológicos que transformam a experiência de estudo
             </p>
           </div>
 
@@ -27,13 +27,14 @@ const Solution = () => {
                   </div>
 
                   <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-4 sm:mb-6">
-                    Processamento de linguagem natural com modelos orientados especificamente para ajudar com o
-                    conteúdo educacional do ENEM, garantindo precisão e relevância nas respostas.
+                    Nossa IA utiliza processamento de linguagem natural especializado no conteúdo do ENEM,
+                    oferecendo respostas precisas e contextualizadas para suas dúvidas específicas.
                   </p>
 
                   <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 sm:mb-8">
-                    <span className="font-medium text-slate-300">Geração Inteligente de Ferramentas de Estudo:</span><br />
-                    A IA realiza uma análise semântica para identificar conceitos-chave, tópicos centrais e informações que podem ser transformadas em perguntas objetivas ou conteúdos de memorização.
+                    <span className="font-medium text-slate-300">Geração Automática de Conteúdo:</span><br />
+                    A IA analisa seu material de estudo e gera automaticamente quizzes personalizados e flashcards
+                    focados nos pontos mais importantes para sua preparação.
                   </p>
 
                   <div className="flex flex-wrap gap-2">
@@ -66,7 +67,8 @@ const Solution = () => {
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">Sistema estimulante</h3>
                   </div>
                   <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-3 sm:mb-4">
-                    Desenvolvemos um motor de gamificação próprio, que processa em tempo real as ações dos usuários e atualiza a interface dinamicamente com pontos, níveis, badges e progresso sempre que uma tarefa é concluída ou uma meta é alcançada.
+                    Sistema de gamificação em tempo real que transforma cada ação de estudo em conquistas visíveis,
+                    mantendo você motivado através de pontos, níveis, badges e feedback contínuo sobre seu progresso.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="bg-clareia-violet/20 text-clareia-violet px-3 py-1 rounded-full text-sm">Conquistas</span>

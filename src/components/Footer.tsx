@@ -72,6 +72,54 @@ const Footer = () => {
     <footer className="pt-6 sm:pt-8 pb-12 sm:pb-16">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col items-center justify-center text-center gap-6 sm:gap-8 mb-8 sm:mb-10 w-full">
+          {/* CTA Card - Transferido do Features */}
+          <div className="w-full max-w-4xl mb-6 sm:mb-8">
+            <div className="bg-white/10 border-2 border-clareia-light-violet rounded-2xl p-6 sm:p-8 md:p-12 text-center shadow-lg hover:bg-white/20 transition-all duration-300">
+              <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-white">
+                Pronto para revolucionar seus estudos?
+              </h3>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 mb-6 sm:mb-8 max-w-xs sm:max-w-lg md:max-w-2xl mx-auto leading-relaxed">
+                Junte-se ao Clareia para alcançar seus objetivos acadêmicos e entenda como ele pode redefinir sua experiência de aprendizagem.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center">
+                <a
+                  href="https://clareia.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto bg-gradient-to-r from-clareia-violet to-clareia-cyan hover:from-clareia-light-violet hover:to-clareia-violet text-sm sm:text-base md:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-white font-medium transition-all duration-300 hover:scale-105 inline-block"
+                >
+                  Começar agora!
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact Card */}
+          <div className="w-full max-w-4xl mb-6 sm:mb-8">
+            <div className="bg-white/10 border-2 border-clareia-cyan rounded-2xl p-6 sm:p-8 text-center shadow-lg hover:bg-white/20 transition-all duration-300">
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 text-white">
+                Contate-nos:
+              </h3>
+              <div className="space-y-2 sm:space-y-3">
+                <p className="text-sm sm:text-base text-slate-200">
+                  <a href="mailto:souzajulia@discente.ufg.br" className="hover:text-clareia-cyan transition-colors">
+                    souzajulia@discente.ufg.br
+                  </a>
+                </p>
+                <p className="text-sm sm:text-base text-slate-200">
+                  <a href="mailto:gustavoduarte@discente.ufg.br" className="hover:text-clareia-cyan transition-colors">
+                    gustavoduarte@discente.ufg.br
+                  </a>
+                </p>
+                <p className="text-sm sm:text-base text-slate-200">
+                  <a href="mailto:vieira_jamily@discente.ufg.br" className="hover:text-clareia-cyan transition-colors">
+                    vieira_jamily@discente.ufg.br
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="flex flex-col md:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 w-full">
             {/* Instagram Card Container */}
             <div className="flex-1 flex justify-center">

@@ -7,9 +7,12 @@ const Problem = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 sm:mb-16 animate-fade-in">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-              <span className="gradient-text">Problemas</span> que buscamos <span className="gradient-text">resolver</span>
+              Os <span className="gradient-text">desafios reais</span> dos estudantes
             </h2>
             <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-6 sm:mb-8"></div>
+            <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed px-2">
+              Identificamos os principais obstáculos que impedem o sucesso no ENEM
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 mb-8 sm:mb-12">
@@ -17,13 +20,13 @@ const Problem = () => {
               <CardContent className="p-6 sm:p-8">
                 <div className="text-center mb-4 sm:mb-6">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-clareia-violet to-clareia-light-violet rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                    <span className="text-xl sm:text-2xl">😞</span>
+                    <span className="text-xl sm:text-2xl">😴</span>
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-white">Baixa motivação</h3>
+                  <h3 className="text-lg sm:text-xl font-bold text-white">Desmotivação e cansaço</h3>
                 </div>
                 <p className="text-sm sm:text-base text-slate-300 leading-relaxed text-center">
-                  Muitos estudantes enfrentam dificuldades em manter o foco e a motivação
-                  para os estudos, especialmente durante a preparação para o ENEM.
+                  Estudar se torna uma tarefa cansativa e desmotivante, especialmente quando
+                  não há feedback imediato ou senso de progresso visível.
                 </p>
               </CardContent>
             </Card>
@@ -35,13 +38,13 @@ const Problem = () => {
               <CardContent className="p-6 sm:p-8">
                 <div className="text-center mb-4 sm:mb-6">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-clareia-cyan to-clareia-violet rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                    <span className="text-xl sm:text-2xl">⚠️</span>
+                    <span className="text-xl sm:text-2xl">❓</span>
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-white">Métodos inadequados</h3>
+                  <h3 className="text-lg sm:text-xl font-bold text-white">Dúvidas sem resposta</h3>
                 </div>
                 <p className="text-sm sm:text-base text-slate-300 leading-relaxed text-center">
-                  Falta de métodos de aprendizagem ativos e personalizados que se adaptem
-                  ao ritmo individual de cada estudante.
+                  Dúvidas que surgem na última hora, falta de acesso a respostas rápidas
+                  e personalizadas para o conteúdo específico do ENEM.
                 </p>
               </CardContent>
             </Card>
@@ -51,12 +54,14 @@ const Problem = () => {
             <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
               <Card className="bg-slate-900 border-clareia-cyan/40">
                 <CardContent className="p-6 sm:p-8 text-center">
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 gradient-text">O impacto real</h3>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 gradient-text">
+                    Por que isso acontece?
+                  </h3>
                   <p className="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed max-w-3xl mx-auto">
-                    Esses desafios impactam diretamente o desempenho escolar dos alunos,
-                    criando uma lacuna entre o potencial individual e os resultados obtidos.
-                    É aqui que o <span className="text-clareia-cyan font-semibold">Clareia</span> entra
-                    como uma solução inovadora e transformadora.
+                    Como estudantes que vivenciaram esses mesmos desafios, entendemos que os métodos tradicionais
+                    de estudo não conseguem acompanhar as necessidades da geração atual.
+                    É por isso que criamos o <span className="text-clareia-cyan font-semibold">Clareia</span> -
+                    uma solução que fala a nossa linguagem e resolve problemas reais.
                   </p>
                 </CardContent>
               </Card>

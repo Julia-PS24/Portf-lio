@@ -22,29 +22,50 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center relative z-10 flex flex-col justify-center min-h-[calc(100vh-4rem)] sm:min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-6rem)]">
         <div className="max-w-4xl mx-auto flex flex-col justify-center flex-1 py-8 sm:py-12">
-          {/* Logo and brand */}
-          <div className="mb-6 sm:mb-8 animate-fade-in">
+          {/* Logo */}
+          <div className="mb-6 sm:mb-8 animate-fade-in flex justify-center">
+            <img
+              src="/lovable-uploads/logo.ico"
+              alt="Clareia Logo"
+              className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain filter drop-shadow-lg hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+
+          {/* Brand and title */}
+          <div className="mb-6 sm:mb-8 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-              Prepare-se para<br />
-              o <span className="gradient-text">ENEM</span> com<br />
-              <span className="text-clareia-violet">inteligência</span> e <span className="text-clareia-cyan">clareza</span>
+              Transforme seus estudos<br />
+              para o <span className="gradient-text">ENEM</span> com<br />
+              <span className="text-clareia-violet">inteligência e clareza</span>
             </h1>
           </div>
 
           {/* Description */}
           <p
-            className="text-slate-400 mb-8 sm:mb-12 max-w-3xl mx-auto animate-fade-in text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-relaxed px-2"
+            className="text-slate-400 mb-6 sm:mb-8 max-w-3xl mx-auto animate-fade-in text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed px-2"
             style={{ animationDelay: '0.6s' }}
           >
-            O <span className="text-clareia-cyan font-semibold">Clareia</span> é uma plataforma de estudo gamificada que
-            usa inteligência artificial para ajudar você a conquistar
-            a sua vaga na universidade.
+            O <span className="text-clareia-cyan font-semibold">Clareia</span> é uma plataforma educacional que combina
+            <span className="text-clareia-violet font-semibold"> IA avançada</span> e
+            <span className="text-clareia-light-violet font-semibold"> gamificação</span> para revolucionar
+            sua preparação para o vestibular.
           </p>
+
+          {/* Pitch intro */}
+          <div
+            className="text-center mb-8 sm:mb-12 animate-fade-in"
+            style={{ animationDelay: '0.9s' }}
+          >
+            <p className="text-slate-300 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed px-2">
+              Desenvolvido por estudantes que conhecem os desafios reais do Ensino Médio,
+              o Clareia oferece uma experiência de aprendizado personalizada e motivadora.
+            </p>
+          </div>
 
           {/* CTA Buttons */}
           <div
             className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 sm:mb-16 animate-fade-in px-4"
-            style={{ animationDelay: '0.9s' }}
+            style={{ animationDelay: '1.2s' }}
           >
             <Button
               asChild
@@ -52,7 +73,7 @@ const Hero = () => {
               className="w-full sm:w-auto bg-gradient-to-r from-clareia-violet to-clareia-light-violet hover:from-clareia-light-violet hover:to-clareia-violet px-6 sm:px-8 py-4 sm:py-6 card-hover text-slate-50 text-lg sm:text-xl md:text-2xl lg:text-3xl rounded-lg font-medium"
             >
               <a href="https://clareia.xyz" target="_blank" rel="noopener noreferrer">
-                Conheça o Clareia!
+                Experimente o Clareia
               </a>
             </Button>
           </div>

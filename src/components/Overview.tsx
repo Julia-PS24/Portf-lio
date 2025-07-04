@@ -4,21 +4,21 @@ import { BookOpen, MessageSquare, FileText } from "lucide-react";
 const Overview = () => {
   const features = [
     {
-      icon: BookOpen,
-      title: "Quizzes e flashcards",
-      description: "Estude com quizzes adaptativos e flashcards personalizados gerados com IA.",
+      icon: MessageSquare,
+      title: "IA Especializada",
+      description: "Chatbot treinado especificamente no conteúdo do ENEM, oferecendo respostas precisas e contextualizadas para suas dúvidas.",
       gradient: "from-clareia-violet to-clareia-light-violet"
     },
     {
-      icon: MessageSquare,
-      title: "Chatbot inteligente",
-      description: "Tire dúvidas a qualquer momento com um chatbot treinado no conteúdo específico do ENEM.",
+      icon: BookOpen,
+      title: "Ferramentas Inteligentes",
+      description: "Quizzes adaptativos e flashcards personalizados gerados automaticamente pela IA a partir do seu material de estudo.",
       gradient: "from-clareia-cyan to-clareia-violet"
     },
     {
       icon: FileText,
-      title: "Gamificação",
-      description: "Ganhe pontos e conquistas enquanto estuda, tornando o aprendizado mais divertido e motivador.",
+      title: "Sistema Gamificado",
+      description: "Conquistas, pontos e progresso em tempo real que mantêm você motivado e engajado nos estudos.",
       gradient: "from-clareia-light-violet to-clareia-cyan"
     }
   ];
@@ -28,11 +28,11 @@ const Overview = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12 sm:mb-16 animate-fade-in">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-            Como o <span className="gradient-text">Clareia</span> ajuda você? 💡
+            O que torna o <span className="gradient-text">Clareia</span> especial? 🚀
           </h2>
           <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r from-clareia-violet to-clareia-cyan mx-auto mb-6 sm:mb-8"></div>
           <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed px-2">
-            Uma plataforma completa que combina inteligência artificial e gamificação para transformar sua experiência de estudo
+            Três pilares fundamentais que fazem a diferença na sua jornada de estudos para o ENEM
           </p>
         </div>
 
